@@ -28,7 +28,7 @@ function MainPage() {
           <span className="main-sub-title" style={{ fontWeight: 500, fontSize: '2.2vw', color: '#ccc', marginRight: '1vw', letterSpacing: '-0.01em' }}>WRITTEN IN CODE</span>
           <span className="main-sub-info" style={{ display: 'flex', alignItems: 'center', gap: '1vw', fontSize: '1.5vw', color: '#aaa', fontWeight: 400 }}>
             <span><img src="/@.png" alt="at symbol" style={{ height: '1.5vw', verticalAlign: 'middle', marginRight: '0.3vw' }} />DSHS, Daejeon</span>
-            <span><img src="/@.png" alt="at symbol" style={{ height: '1.5vw', verticalAlign: 'middle', marginRight: '0.3vw' }} />2025. 07. 25 ~ 26</span>
+            <span><img src="/@.png" alt="at symbol" style={{ height: '1.5vw', verticalAlign: 'middle', marginRight: '0.3vw' }} />2025. 07. 31 ~ 08. 02</span>
           </span>
         </div>
       </main>

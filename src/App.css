@@ -1159,4 +1159,159 @@ body, html {
 /* 작은 글씨(예: 2) */
 .schedule-place, .about2-legend-list li, .schedule-footer-address {
   font-weight: 200;
+}
+
+/* 추가 반응형 미디어 쿼리 */
+@media (max-width: 700px) {
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 12px 4vw 0 0;
+  }
+  .nav-menu {
+    gap: 3vw;
+    font-size: 0.95rem;
+    margin: 0 2vw 0 0;
+    flex-wrap: wrap;
+  }
+  .apply-btn {
+    font-size: 0.95rem;
+    padding: 7px 12px;
+    border-radius: 14px;
+    margin-top: 8px;
+  }
+  .main-content {
+    margin: 6vh 0 0 2vw;
+    align-items: flex-start;
+  }
+  .main-title-row {
+    gap: 2vw;
+  }
+  .main-title {
+    font-size: 10vw;
+  }
+  .main-title-img,
+  .main-title-at-img {
+    height: 10vw;
+  }
+  .main-sub-row {
+    gap: 2vw;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+  }
+  .main-sub-title {
+    font-size: 4vw;
+  }
+  .main-sub-info {
+    font-size: 2.2vw;
+  }
+  .about2-main-row {
+    flex-direction: column;
+    padding: 0 2vw;
+    align-items: stretch;
+    min-width: 0;
+  }
+  .about2-left, .about2-right {
+    min-width: 0;
+    max-width: 100vw;
+    width: 100%;
+  }
+  .about2-right {
+    margin-left: 0;
+    margin-top: 32px;
+    align-items: center;
+  }
+  .about2-donut-wrap {
+    width: 90vw;
+    height: 90vw;
+    max-width: 340px;
+    max-height: 340px;
+  }
+  .about2-donut-img {
+    width: 100%;
+    height: 100%;
+  }
+  .about2-legend-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .about2-legend-box {
+    width: 20px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .schedule-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 10vw 10px 6vw;
+    gap: 10px;
+  }
+  .schedule-footer-logo {
+    margin-top: 8px;
+  }
+  .schedule-footer-address {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  .timeline-row-single {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .timeline-bar-single {
+    width: 90vw;
+    min-width: 0;
+    height: 40px;
+    margin-right: 0;
+  }
+  .timeline-desc-single {
+    min-width: 0;
+    font-size: 1rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .perks-timeline-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .perks-imgs {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .perk-img-col {
+    width: 100%;
+    align-items: center;
+  }
+  .perk-img {
+    width: 60vw;
+    max-width: 180px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 13vw;
+  }
+  .main-title-img,
+  .main-title-at-img {
+    height: 13vw;
+  }
+  .about2-title {
+    font-size: 1.3rem;
+  }
+  .about2-desc {
+    font-size: 0.98rem;
+  }
+  .schedule-header-date {
+    font-size: 1.5rem;
+  }
+  .schedule-footer-address {
+    font-size: 0.85rem;
+  }
 } 

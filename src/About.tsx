@@ -60,7 +60,9 @@ function About() {
       </div>
       <footer className="schedule-footer">
         <div className="schedule-footer-address">
-          대전광역시 중구 대흥로 128번길 30, 대신고등학교
+          98, Oryang 1-gil,<br />
+          Seo-gu,<br />
+          Daejeon, Republic of Korea
         </div>
         <div className="schedule-footer-logo">
           <img src="/act.png" alt="act.ke logo" style={{ height: '56px', width: 'auto' }} />
