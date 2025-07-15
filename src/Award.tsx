@@ -22,7 +22,9 @@ function Award() {
             <li><Link to="/schedule">일정</Link></li>
             <li><Link to="/award">특전</Link></li>
           </ul>
-          <button className="apply-btn">지원하기</button>
+          <button className="apply-btn" onClick={() => window.open('https://forms.gle/FuaHAqvU9HWTKJMS9', '_blank')}>
+            지원하기
+          </button>
         </nav>
         <div style={{ marginBottom: '32px', marginTop: '8px' }}>
           <div style={{ fontSize: '2.7rem', fontWeight: 800, marginBottom: '8px', letterSpacing: '-0.02em', marginLeft: '48px' }}>Perks</div>

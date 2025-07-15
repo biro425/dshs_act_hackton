@@ -13,7 +13,7 @@ function About() {
           <li><Link to="/schedule">일정</Link></li>
           <li><Link to="/award">특전</Link></li>
         </ul>
-        <button className="apply-btn" onClick={() => window.open('https://forms.gle/V8zoRb5u1h5U6baX6', '_blank')}>지원하기</button>
+        <button className="apply-btn" onClick={() => window.open('https://forms.gle/FuaHAqvU9HWTKJMS9', '_blank')}>지원하기</button>
       </nav>
       <div className="page-container">
         <div style={{ marginBottom: '32px', marginTop: '8px' }}>
